@@ -19,7 +19,7 @@ contract MyGovernor is
         uint256 _votingDelay,
         uint256 _votingPeriod,
         uint8 _quorumPercentage
-    )
+    ) payable
         Governor("MyGovernor")
         GovernorSettings(
             _votingDelay, /* 1 block */
