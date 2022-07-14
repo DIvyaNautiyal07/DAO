@@ -18,7 +18,7 @@ contract MyGovernor is
         IVotes _token,
         uint256 _votingDelay,
         uint256 _votingPeriod,
-        uint8 _quorumPercentage
+        uint256 _quorumPercentage
     ) payable
         Governor("MyGovernor")
         GovernorSettings(
